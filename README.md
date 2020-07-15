@@ -1,81 +1,33 @@
-<!-- This should be the location of the title of the repository, normally the short name -->
-# repo-template
+# FIBEN Benchmark
 
-<!-- Build Status, is a great thing to have at the top of your repository, it shows that you take your CI/CD as first class citizens -->
-<!-- [![Build Status](https://travis-ci.org/jjasghar/ibm-cloud-cli.svg?branch=master)](https://travis-ci.org/jjasghar/ibm-cloud-cli) -->
+## FIBEN SCHEMA
+FIBEN is a Natural Language Querying benchmark, with a dataset that emulates a real-world data mart. The FIBEN schema models information about public companies, their officers, and financial metrics reported over a period of time. Users can ask queries about the financial health and performance of public companies in a variety of different industry sectors. The FIBEN schema also describes financial transactions over holdings and securities provided by public companies. Each financial transaction is linked to a customer account. The customer account describes the customer’s portfolio in terms of the securities held, and is associated with the buying or selling of securities such as stocks, bonds and mutual funds of publicly traded companies in different financial markets over a period of time. 
 
-<!-- Not always needed, but a scope helps the user understand in a short sentance like below, why this repo exists -->
-## Scope
+The FIBEN schema conforms to a union of two subsets from two standard finance ontologies: Finance Industry Business Ontology (FIBO) [1] and Finance Report Ontology (FRO) [2]. FIBO is the de-facto industry standard defined by the enterprise data management (EDM) council to represent business concepts and information in the finance domain. FRO is a formal report ontology of an XBRL based financial report which captures the financial metric data reported by public companies to SEC. 
 
-The purpose of this project is to provide a template for new open source repositories.
+## FIBEN QUERIES
+FIBEN is a benchmark for testing NLQ of analytical queries, which may include joins and different types of nested queries[3]. The benchmark consists of 300 NL queries, along with their equivalent SQL queries expressed over FIBEN Schema. For the 300 NL queries, there are 237 distinct target SQL queries. The benchmark query suite includes a mix of 130 single SQL-block queries, and 170 nested queries. Of the nested queries, 28 are of Type-N, 64 of Type-A, 40 of Type-J, 38 from Type-JA as classified following the same definition provided in [3]. The benchmark query suite is provided in FIBEN_Queries.json file in a JSON format with the following keys:
 
-<!-- A more detailed Usage or detailed explaination of the repository here -->
-## Usage
+uniqueQueryID: a number that uniquely identifies a unique SQL query.
 
-This repository contains some example best practices for open source repositories:
+question: natural language question/user utterance
 
-* [LICENSE](LICENSE)
-* [README.md](README.md)
-* [CONTRIBUTING.md](CONTRIBUTING.md)
-* [MAINTAINERS.md](MAINTAINERS.md)
-<!-- A Changelog allows you to track major changes and things that happen, https://github.com/github-changelog-generator/github-changelog-generator can help automate the process -->
-* [CHANGELOG.md](CHANGELOG.md)
-
-> These are optional
-
-<!-- The following are OPTIONAL, but strongly suggested to have in your repository. -->
-* [dco.yml](.github/dco.yml) - This enables DCO bot for you, please take a look https://github.com/probot/dco for more details.
-* [travis.yml](.travis.yml) - This is a example `.travis.yml`, please take a look https://docs.travis-ci.com/user/tutorial/ for more details.
-
-These may be copied into a new or existing project to make it easier for developers not on a project team to collaborate.
-
-<!-- A notes section is useful for anything that isn't covered in the Usage or Scope. Like what we have below. -->
-## Notes
-
-**NOTE: While this boilerplate project uses the Apache 2.0 license, when
-establishing a new repo using this template, please use the
-license that was approved for your project.**
-
-**NOTE: This repository has been configured with the [DCO bot](https://github.com/probot/dco).
-When you set up a new repository that uses the Apache license, you should
-use the DCO to manage contributions. The DCO bot will help enforce that.
-Please contact one of the IBM GH Org stewards.**
-
-<!-- Questions can be useful but optional, this gives you a place to say, "This is how to contact this project maintainers or create PRs -->
-If you have any questions or issues you can create a new [issue here][issues].
-
-Pull requests are very welcome! Make sure your patches are well tested.
-Ideally create a topic branch for every separate change you make. For
-example:
-
-1. Fork the repo
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Added some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
-
-<!-- License and Authors is optional here, but gives you the ability to highlight who is involed in the project -->
-## License & Authors
-
-If you would like to see the detailed LICENSE click [here](LICENSE).
-
-- Author: New OpenSource IBMer <new-opensource-ibmer@ibm.com>
-
-```text
-Copyright:: 2019- IBM, Inc
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
+isParaphrased: True/False. If true, then there is another paraphrasing of the NL query that has the same target SQL query, and the  "uniqueQueryID" points to the entry with the target SQL.
+queryType: (non-nested/type-n/type-a/type-j/type-ja)
 
 
-[issues]: https://github.com/IBM/repo-template/issues/new
+## Repository Info
+This repo contains the following
+1. DDL file for creating the FIBEN schema, including FK-PK constraints, compatible with DB2 and PostGreSQL database(FIBEN.sql).
+2. Set of natural language benchmark queries and their corresponding SQL queries (FIBEN_Queries.json).
+3. Related Documents folder includes publications related to the FIBEN Benchmark.
+
+
+# References
+
+[1] FIBO. https://spec.edmcouncil.org/fibo/ (July, 2020).
+
+[2] FRO. http://xbrl.squarespace.com/financial-report-ontology/ (Jul, 2020).
+
+[3] Won Kim, "On optimizing an SQL-like nested query", ACM Transactions on Database Systems Volume 7, Issue 3, pp. 443–469.
+
