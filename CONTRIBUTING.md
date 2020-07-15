@@ -51,7 +51,7 @@ applies to how we handle the legal aspects of contribution.
 same approach - the [Developer's Certificate of Origin 1.1 (DCO)](https://github.com/hyperledger/fabric/blob/master/docs/source/DCO1.1.txt) - that the Linux® Kernel [community](https://elinux.org/Developer_Certificate_Of_Origin)
 uses to manage code contributions.--->
 
-We simply ask that when submitting a patch for review, the developer
+We simply ask that when submitting any changes for review, the user
 must include a sign-off statement in the commit message.
 
 Here is an example Signed-off-by line, which indicates that the
