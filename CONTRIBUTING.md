@@ -54,8 +54,7 @@ uses to manage code contributions.--->
 We simply ask that when submitting any changes for review, the user
 must include a sign-off statement in the commit message.
 
-Here is an example Signed-off-by line, which indicates that the
-submitter accepts the DCO:
+Here is an example Signed-off-by line, which includes the user's name and email:
 
 ```
 Signed-off-by: John Doe <john.doe@example.com>
