@@ -1,11 +1,10 @@
 ## Contributing In General
-Our project welcomes external contributions. If you have an itch, please feel
-free to scratch it.
+Our project welcomes external contributions.
 
-To contribute code or documentation, please submit a **FIXME** [pull request](https://github.com/ibm/repo-template/pulls).
+To contribute changes to queries or add new results for the benchmark, please submit a **FIXME** [pull request](https://github.com/ibm/fiben-benchmark/pulls).
 
-A good way to familiarize yourself with the codebase and contribution process is
-to look for and tackle low-hanging fruit in the **FIXME** [issue tracker](https://github.com/ibm/repo-template/issues).
+A good way to familiarize yourself with the benchmark and contribution process is
+to look for and tackle current issues in the **FIXME** [issue tracker](https://github.com/ibm/fiben-benchmark/issues).
 Before embarking on a more ambitious contribution, please quickly [get in touch](#communication) with us.
 
 **Note: We appreciate your effort, and want to avoid a situation where a contribution
@@ -14,14 +13,14 @@ cannot be accepted at all!**
 
 ### Proposing new features
 
-If you would like to implement a new feature, please **FIXME** [raise an issue](https://github.com/ibm/repo-template/issues)
+If you would like to implement a new feature, please **FIXME** [raise an issue](https://github.com/ibm/fiben-benchmark/issues)
 before sending a pull request so the feature can be discussed. This is to avoid
 you wasting your valuable time working on a feature that the project developers
 are not interested in accepting into the code base.
 
 ### Fixing bugs
 
-If you would like to fix a bug, please **FIXME** [raise an issue](https://github.com/ibm/repo-template/issues) before sending a
+If you would like to fix a bug, please **FIXME** [raise an issue](https://github.com/ibm/fiben-benchmark/issues) before sending a
 pull request so it can be tracked.
 
 ### Merge approval
@@ -47,15 +46,15 @@ SPDX-License-Identifier: Apache-2.0
 ```
 
 We have tried to make it as easy as possible to make contributions. This
-applies to how we handle the legal aspects of contribution. We use the
+applies to how we handle the legal aspects of contribution. 
+<!---We use the
 same approach - the [Developer's Certificate of Origin 1.1 (DCO)](https://github.com/hyperledger/fabric/blob/master/docs/source/DCO1.1.txt) - that the Linux® Kernel [community](https://elinux.org/Developer_Certificate_Of_Origin)
-uses to manage code contributions.
+uses to manage code contributions.--->
 
-We simply ask that when submitting a patch for review, the developer
+We simply ask that when submitting any changes for review, the user
 must include a sign-off statement in the commit message.
 
-Here is an example Signed-off-by line, which indicates that the
-submitter accepts the DCO:
+Here is an example Signed-off-by line, which includes the user's name and email:
 
 ```
 Signed-off-by: John Doe <john.doe@example.com>
@@ -69,16 +68,16 @@ git commit -s
 ```
 
 ## Communication
-**FIXME** Please feel free to connect with us on our [Slack channel](link).
+**FIXME** Please feel free to connect with us via email available in the [MAINTAINERS.md](MAINTAINERS.md) page.
 
-## Setup
+<!--## Setup
 **FIXME** Please add any special setup instructions for your project to help the developer
-become productive quickly.
+become productive quickly.-->
 
-## Testing
+<!---## Testing
 **FIXME** Please provide information that helps the developer test any changes they make
-before submitting.
+before submitting.--->
 
-## Coding style guidelines
+<!---## Coding style guidelines
 **FIXME** Optional, but recommended: please share any specific style guidelines you might
-have for your project.
+have for your project.--->
