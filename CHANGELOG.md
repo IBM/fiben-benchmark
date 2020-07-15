@@ -1,10 +1,10 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project are documented in this file.
 
-## [Unreleased]
+## [Released]
 
-## [0.0.1] - 2019-02-15
+## [v1.0] - 2020-07-14
 
 ### Added
 - Added a changelog
