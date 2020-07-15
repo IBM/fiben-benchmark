@@ -1,10 +1,10 @@
 ## Contributing In General
 Our project welcomes external contributions.
 
-To contribute code or documentation, please submit a **FIXME** [pull request](https://github.com/ibm/repo-template/pulls).
+To contribute changes to queries or add new results for the benchmark, please submit a **FIXME** [pull request](https://github.com/ibm/fiben-benchmark/pulls).
 
-A good way to familiarize yourself with the codebase and contribution process is
-to look for and tackle low-hanging fruit in the **FIXME** [issue tracker](https://github.com/ibm/repo-template/issues).
+A good way to familiarize yourself with the benchmark and contribution process is
+to look for and tackle current issues in the **FIXME** [issue tracker](https://github.com/ibm/fiben-benchmark/issues).
 Before embarking on a more ambitious contribution, please quickly [get in touch](#communication) with us.
 
 **Note: We appreciate your effort, and want to avoid a situation where a contribution
@@ -13,14 +13,14 @@ cannot be accepted at all!**
 
 ### Proposing new features
 
-If you would like to implement a new feature, please **FIXME** [raise an issue](https://github.com/ibm/repo-template/issues)
+If you would like to implement a new feature, please **FIXME** [raise an issue](https://github.com/ibm/fiben-benchmark/issues)
 before sending a pull request so the feature can be discussed. This is to avoid
 you wasting your valuable time working on a feature that the project developers
 are not interested in accepting into the code base.
 
 ### Fixing bugs
 
-If you would like to fix a bug, please **FIXME** [raise an issue](https://github.com/ibm/repo-template/issues) before sending a
+If you would like to fix a bug, please **FIXME** [raise an issue](https://github.com/ibm/fiben-benchmark/issues) before sending a
 pull request so it can be tracked.
 
 ### Merge approval
