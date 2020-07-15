@@ -46,9 +46,10 @@ SPDX-License-Identifier: Apache-2.0
 ```
 
 We have tried to make it as easy as possible to make contributions. This
-applies to how we handle the legal aspects of contribution. We use the
+applies to how we handle the legal aspects of contribution. 
+<!---We use the
 same approach - the [Developer's Certificate of Origin 1.1 (DCO)](https://github.com/hyperledger/fabric/blob/master/docs/source/DCO1.1.txt) - that the Linux® Kernel [community](https://elinux.org/Developer_Certificate_Of_Origin)
-uses to manage code contributions.
+uses to manage code contributions.--->
 
 We simply ask that when submitting a patch for review, the developer
 must include a sign-off statement in the commit message.
@@ -70,14 +71,14 @@ git commit -s
 ## Communication
 **FIXME** Please feel free to connect with us via email available in the [MAINTAINERS.md](MAINTAINERS.md) page.
 
-## Setup
+<!--## Setup
 **FIXME** Please add any special setup instructions for your project to help the developer
-become productive quickly.
+become productive quickly.-->
 
-## Testing
+<!---## Testing
 **FIXME** Please provide information that helps the developer test any changes they make
-before submitting.
+before submitting.--->
 
-[//]:## Coding style guidelines
-[//]:**FIXME** Optional, but recommended: please share any specific style guidelines you might
-[//]:have for your project.
+<!---## Coding style guidelines
+**FIXME** Optional, but recommended: please share any specific style guidelines you might
+have for your project.--->
