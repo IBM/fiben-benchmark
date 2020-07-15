@@ -1,6 +1,5 @@
 ## Contributing In General
-Our project welcomes external contributions. If you have an itch, please feel
-free to scratch it.
+Our project welcomes external contributions.
 
 To contribute code or documentation, please submit a **FIXME** [pull request](https://github.com/ibm/repo-template/pulls).
 
