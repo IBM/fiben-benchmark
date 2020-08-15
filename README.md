@@ -36,7 +36,7 @@ J. Sen, C. Lei, A. Quamar, F. Özcan, V. Efthymiou, A. Dalmia, G. Stager, A. Mit
 } 
 ```
 
-# References
+## References
 
 [1] FIBO. https://spec.edmcouncil.org/fibo/ (July, 2020).
 
