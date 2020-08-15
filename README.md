@@ -15,13 +15,26 @@ question: natural language question/user utterance
 isParaphrased: True/False. If true, then there is another paraphrasing of the NL query that has the same target SQL query, and the  "uniqueQueryID" points to the entry with the target SQL.
 queryType: (non-nested/type-n/type-a/type-j/type-ja)
 
-
 ## Repository Info
 This repo contains the following:
 1. DDL file for creating the FIBEN schema, including FK-PK constraints, compatible with Db2 and PostgreSQL database (FIBEN.sql).
 2. Set of natural language benchmark queries and their corresponding SQL queries (FIBEN_Queries.json).
 3. Related Documents folder includes publications related to the FIBEN Benchmark.
 
+## Citing FIBEN
+J. Sen, C. Lei, A. Quamar, F. Özcan, V. Efthymiou, A. Dalmia, G. Stager, A. Mittal, D. Saha, K. Sankaranarayanan: ATHENA++: Natural Language Querying for Complex Nested SQL Queries, PVLDB 13(11): 2747-2759 (2020)
+
+```
+@article{sen:2020,
+  author  = {Sen, Jaydeep and Lei, Chuan and Quamar, Abdul and Ozcan, Fatma and Efthymiou, Vasilis and Dalmia, Ayushi and Stager, Greg and Mittal, Ashish and Saha, Diptikalyan and Sankaranarayanan, Karthik},
+  title   = {{ATHENA}++: Natural Language Querying for Complex Nested SQL Queries},
+  journal = {PVLDB},
+  volume  = {13},
+  number  = {11},
+  year    = {2020},
+  pages   = {2747--2759}
+} 
+```
 
 # References
 
