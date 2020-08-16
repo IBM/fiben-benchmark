@@ -28,7 +28,7 @@ J. Sen, C. Lei, A. Quamar, F. Özcan, V. Efthymiou, A. Dalmia, G. Stager, A. Mit
 @article{sen:2020,
   author  = {Sen, Jaydeep and Lei, Chuan and Quamar, Abdul and Ozcan, Fatma and Efthymiou, Vasilis and Dalmia, Ayushi and Stager, Greg and Mittal, Ashish and Saha, Diptikalyan and Sankaranarayanan, Karthik},
   title   = {{ATHENA}++: Natural Language Querying for Complex Nested SQL Queries},
-  journal = {PVLDB},
+  journal = {Proc. {VLDB} Endow.},
   volume  = {13},
   number  = {11},
   year    = {2020},
